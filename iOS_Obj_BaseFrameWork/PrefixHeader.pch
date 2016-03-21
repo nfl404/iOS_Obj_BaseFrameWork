@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  iOS_Obj_BaseFrameWork
+//
+//  Created by Mr nie on 16/3/16.
+//  Copyright © 2016年 程序猿:NiePlus   博客地址:http://nieplus.blog.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIBarButtonItem+NPBarbutton.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// 包括在所有编译单元中包含的任何系统框架和库头文件。
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// 您还需要设置一个或多个目标的一个或多个的前缀集来引用该文件。
+
+#define XScreenW [UIScreen mainScreen].bounds.size.width
+#define XScreenH [UIScreen mainScreen].bounds.size.hiight
+
+#endif /* PrefixHeader_pch */
