@@ -51,6 +51,7 @@
     [self addChildViewController:nav];
 
 }
+
 二.继承UINavigationController创建NPNavigationController
 1.重写-(void)pushVewController:(UIViewConntroller*)viewCOntroller animated:(Bool)animated方法
 
@@ -86,6 +87,7 @@
     //子控制器通过这个方法推送视图
     [super pushViewController:viewController animated:animated];
 }
+
 三.添加UIBarButtonItem的类扩展UIBarButtonItem＋NPBarbutton,创建UIbarbuttonItem类方法
 1.UIbarbuttonItem类方法
 
