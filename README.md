@@ -3,7 +3,7 @@
 
 
 
-本基础框架主要包括UITabBarController，UINavigationController和UIBarButtonItem类的扩展。主要解决子视图创建过多，封装带有UINavigationController的子视图创建，然后添加到UITabBarController的ChildViewController视图中。针对UITabBarController的UITabBarItem的字体大小，颜色设置。废话不多说，上代码。
+本基础框架主要包括UITabBarController，UINavigationController和UIBarButtonItem类的扩展。主要解决子视图创建过多，封装带有UINavigationController的子视图创建，然后添加到UITabBarController的ChildViewController视图中。针对UITabBarController的UITabBarItem的字体大小，颜色设置。
 
 一.继承UITabBarController创建的NPTabBarController
 1.设置tabbar上面的字体样式
@@ -113,8 +113,8 @@
 以上为基础框架主要实现，还有一些不足，手势滑动返回没有写到，欢迎大家一起fork！
 
 
-
-qq技术交流群：193996724                                      作者：NiePlus
+作者：NiePlus
+qq技术交流群：193996724  
 
 推广MarkDown语法链接：http://www.jianshu.com/p/7cc9c26e8b7a 作者：大毛集团
 
