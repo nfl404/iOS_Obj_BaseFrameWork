@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -29,11 +30,12 @@
 
 - (void)toShareViewcontroller
 {
-    UIViewController *vc = [[UIViewController alloc] init];
+    SecondViewController *vc = [[SecondViewController alloc] init];
     [vc.view setBackgroundColor:[UIColor grayColor]];
-    [vc.navigationItem setTitle:@"分享"];
+    [vc.navigationItem setTitle:@"SecondViewController"];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5D601E1CBBAAEC008409C6 /* NPUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D601D1CBBAAEC008409C6 /* NPUIViewController.m */; };
+		FC5D60231CBBAAFF008409C6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D60201CBBAAFF008409C6 /* SecondViewController.m */; };
+		FC5D60241CBBAAFF008409C6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D60221CBBAAFF008409C6 /* ThirdViewController.m */; };
 		FCF8E9211C99326E003CA961 /* NPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8E9201C99326E003CA961 /* NPNavigationController.m */; };
 		FCF8E9251C994530003CA961 /* UIBarButtonItem+NPBarbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8E9241C994530003CA961 /* UIBarButtonItem+NPBarbutton.m */; };
 		FCF8E92C1C996324003CA961 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8E92B1C996324003CA961 /* ViewController.m */; };
@@ -20,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC5D601C1CBBAAEC008409C6 /* NPUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPUIViewController.h; sourceTree = "<group>"; };
+		FC5D601D1CBBAAEC008409C6 /* NPUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPUIViewController.m; sourceTree = "<group>"; };
+		FC5D601F1CBBAAFF008409C6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FC5D60201CBBAAFF008409C6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FC5D60211CBBAAFF008409C6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FC5D60221CBBAAFF008409C6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		FCF8E91F1C99326E003CA961 /* NPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPNavigationController.h; sourceTree = "<group>"; };
 		FCF8E9201C99326E003CA961 /* NPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPNavigationController.m; sourceTree = "<group>"; };
 		FCF8E9221C994066003CA961 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -75,6 +84,10 @@
 				FCFD08411C98012F00280E79 /* AppDelegate.m */,
 				FCF8E92A1C996324003CA961 /* ViewController.h */,
 				FCF8E92B1C996324003CA961 /* ViewController.m */,
+				FC5D601F1CBBAAFF008409C6 /* SecondViewController.h */,
+				FC5D60201CBBAAFF008409C6 /* SecondViewController.m */,
+				FC5D60211CBBAAFF008409C6 /* ThirdViewController.h */,
+				FC5D60221CBBAAFF008409C6 /* ThirdViewController.m */,
 				FCFD08461C98012F00280E79 /* Main.storyboard */,
 				FCFD08491C98012F00280E79 /* Assets.xcassets */,
 				FCFD084B1C98012F00280E79 /* LaunchScreen.storyboard */,
@@ -101,6 +114,8 @@
 				FCFD08561C980E5800280E79 /* NPTabBarController.m */,
 				FCF8E91F1C99326E003CA961 /* NPNavigationController.h */,
 				FCF8E9201C99326E003CA961 /* NPNavigationController.m */,
+				FC5D601C1CBBAAEC008409C6 /* NPUIViewController.h */,
+				FC5D601D1CBBAAEC008409C6 /* NPUIViewController.m */,
 				FCF8E9231C994530003CA961 /* UIBarButtonItem+NPBarbutton.h */,
 				FCF8E9241C994530003CA961 /* UIBarButtonItem+NPBarbutton.m */,
 			);
@@ -182,6 +197,9 @@
 				FCF8E92C1C996324003CA961 /* ViewController.m in Sources */,
 				FCF8E9251C994530003CA961 /* UIBarButtonItem+NPBarbutton.m in Sources */,
 				FCFD08571C980E5800280E79 /* NPTabBarController.m in Sources */,
+				FC5D601E1CBBAAEC008409C6 /* NPUIViewController.m in Sources */,
+				FC5D60231CBBAAFF008409C6 /* SecondViewController.m in Sources */,
+				FC5D60241CBBAAFF008409C6 /* ThirdViewController.m in Sources */,
 				FCF8E9211C99326E003CA961 /* NPNavigationController.m in Sources */,
 				FCFD08421C98012F00280E79 /* AppDelegate.m in Sources */,
 				FCFD083F1C98012F00280E79 /* main.m in Sources */,
