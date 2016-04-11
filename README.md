@@ -108,9 +108,32 @@
         return [[self alloc] initWithCustomView:btn];
     }
 
+四.继承UIViewController创建NPUIViewController基类，添加滑动返回
 
+    - (void)viewDidDisappear:(BOOL)animated
+    {
+        [super viewDidDisappear:animated];
+        //代理置空，否则会闪退
+        if ([self.navigationController       respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+        }
+        
+    }
 
-以上为基础框架主要实现，还有一些不足，手势滑动返回没有写到，欢迎大家一起fork！
+    - (void)viewDidAppear:(BOOL)animated
+    {
+        [super viewDidAppear:animated];
+        //开启iOS7的滑动返回效果
+        if ([self.navigationController   respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+            //只有在二级页面生效
+            if ([self.navigationController.viewControllers count] == 2) {
+                self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
+            }
+        }
+    }
+    
+
+以上为基础框架主要实现，有很多不足之处，欢迎大家一起fork！
 
 
 作者：NiePlus
