@@ -136,8 +136,6 @@
 以上为基础框架主要实现，有很多不足之处，欢迎大家一起fork！
 
 
-作者：NiePlus
-
 qq技术交流群：193996724  
 
 推广MarkDown语法链接：http://www.jianshu.com/p/7cc9c26e8b7a 作者：大毛集团
